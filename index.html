@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Daily News</title>
+    <style>
+        /* Basic styling to match the screenshot's layout */
+        body { font-family: Arial, sans-serif; background-color: #f0f2f5; padding: 20px; }
+        .container { max-width: 800px; margin: auto; background: white; padding: 20px; border-radius: 8px; box-shadow: 0 2px 10px rgba(0,0,0,0.1); }
+        .section { margin-bottom: 30px; border-bottom: 1px solid #eee; padding-bottom: 15px; }
+        .section:last-child { border-bottom: none; }
+        
+        h1 { text-align: center; color: darkblue; }
+        h2.breaking { color: red; }
+        h2.highlight { color: green; }
+        h2.weather { color: orange; }
+        h2.read-more { color: purple; }
+        
+        table { width: 30%; border-collapse: collapse; }
+        td { padding: 5px; }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>📰 My Daily News</h1>
+
+        <div class="section">
+            <h2 class="breaking">Breaking News</h2>
+            <p><strong>Technology</strong> is growing <em>rapidly</em>. Students are learning <u>HTML</u>, <strong>CSS</strong>, and <em>JavaScript</em>.</p>
+        </div>
+
+        <div class="section">
+            <h2 class="highlight">Today's Highlight</h2>
+            <p>Water formula is H<sub>2</sub>O and Einstein said $E = mc^2$.</p>
+            <p><small>Small text</small><br>
+               <big>Big text</big></p>
+            <p><del>Old news</del> &rarr; Updated news!</p>
+        </div>
+
+        <div class="section">
+            <h2 class="weather">Weather Report</h2>
+            <table>
+                <tr><th>City</th><th>Temp</th></tr>
+                <tr><td>Bangalore</td><td>28°C</td></tr>
+                <tr><td>Delhi</td><td>35°C</td></tr>
+                <tr><td>Mumbai</td><td>30°C</td></tr>
+            </table>
+        </div>
+
+        <div class="section">
+            <h2 class="read-more">Read More</h2>
+            <p>Visit <a href="https://www.bbc.com/news" target="_blank">BBC News</a></p>
+        </div>
+    </div>
+
+</body>
+</html>
